@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "main": "build/index.js",
   "module": "build/index.esm.js",
-  "private": true,
   "licence": "",
   "files": [
     "build"
