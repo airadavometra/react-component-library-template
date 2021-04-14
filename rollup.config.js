@@ -26,9 +26,8 @@ export default {
     resolve(),
     commonjs(),
     typescript({ useTsconfigDeclarationDir: true }),
-    postcss(), //we can configure autoprefixer later if it will be necessary
+    postcss(),
     copy({
-      //in case someone needs variables and fonts
       targets: [
         {
           src: "src/variables.scss",

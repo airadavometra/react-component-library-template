@@ -3,7 +3,7 @@ to: <%= absPath %>/<%= component_name %>.spec.tsx
 ---
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { <%= component_name %>, ButtonProps } from './<%= component_name %>';
+import { <%= component_name %>, <%= component_name %>Props } from './<%= component_name %>';
 
 describe("Test Component", () => {
   let props: <%= component_name %>Props;
